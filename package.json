@@ -4,11 +4,11 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "start-dev": "npm run build-watch & npm run start-server",
-    "start-server": "nodemon main.js -e html,js,css --ignore public",
-    "build-watch": "webpack -w",
+    "start": "webpack serve  --hot --open",
+    "build": "webpack --config webpack.config.js --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  
   "author": "Winnie Lau",
   "license": "ISC",
   "devDependencies": {
