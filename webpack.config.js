@@ -1,26 +1,30 @@
 const path = require("path");
+
 module.exports = {
-  entry: ["./src/index.js"],
-  output: {
-    path: __dirname,
-    filename: "./public/bundle.js",
-  },
   mode: "development",
-  context: __dirname,
-  devtool: "source-map",
+  entry: "./index.js",
+  output: {
+    path: path.resolve(__dirname, "public"),
+    filename: "main.js",
+  },
+
+  target: "web",
+  devServer: {
+    port: "3000",
+    static: ["./public"],
+    open: true,
+    hot: true,
+    liveReload: true,
+  },
+  resolve: {
+    extensions: [".js", ".jsx", ".json", ".ts"],
+  },
   module: {
     rules: [
       {
-        test: /\.jsx?$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        loader: "babel-loader",
-        options: {
-          presets: ["@babel/preset-react"],
-        },
-      },
-      {
-        test: /\.css$/,
-        use: ["style-loader", "css-loader"],
+        use: "babel-loader",
       },
     ],
   },
