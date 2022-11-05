@@ -1,14 +1,14 @@
 const path = require("path");
 
 module.exports = {
-  mode: "development",
   entry: "./index.js",
   output: {
-    path: path.resolve(__dirname, "public"),
-    filename: "main.js",
+    path: __dirname,
+    filename: "./public/main.js",
   },
-
-  target: "web",
+  mode: "development",
+  context: __dirname,
+  devtool: "source-map",
   devServer: {
     port: "3000",
     static: ["./public"],
@@ -16,15 +16,19 @@ module.exports = {
     hot: true,
     liveReload: true,
   },
-  resolve: {
-    extensions: [".js", ".jsx", ".json", ".ts"],
-  },
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: "babel-loader",
+        loader: "babel-loader",
+        options: {
+          presets: ["@babel/preset-react"],
+        },
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
       },
     ],
   },
