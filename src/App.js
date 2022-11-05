@@ -1,8 +1,14 @@
 import React from "react";
 
-
 const App = () => {
-  return <h1 className="name">Winnie Lau's </h1>;
+  return (
+    <div>
+      <h1 className="name">Winnie Lau </h1>
+      <button>Linkedin</button>
+      <button>Github</button>
+      <button>Resume</button>
+    </div>
+  );
 };
 
 export default App;
