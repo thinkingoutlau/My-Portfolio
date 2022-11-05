@@ -3406,9 +3406,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 var App = function App() {
+  var handleClick = function handleClick(e) {
+    e.preventDefault();
+    console.log("hello");
+  };
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
     className: "name"
-  }, "Winnie Lau "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", null, "Linkedin"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", null, "Github"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", null, "Resume"));
+  }, "WINNIE LAU :)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    onClick: handleClick
+  }, "Linkedin"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", null, "Github"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", null, "Resume"));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
 
@@ -3433,7 +3439,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".name {\n  font-size: 50px;\n  color: green;\n}\n\nbutton {\n  border-radius: 5px;\n  display: flex;\n  justify-content: space-between;\n}\n", "",{"version":3,"sources":["webpack://./public/style.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,8BAA8B;AAChC","sourcesContent":[".name {\n  font-size: 50px;\n  color: green;\n}\n\nbutton {\n  border-radius: 5px;\n  display: flex;\n  justify-content: space-between;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".name {\n  font-size: 50px;\n  font-family: \"Optima\";\n  color: rgb(76, 212, 190);\n}\n\nbutton {\n  border-radius: 5px;\n  margin: 0 10px 0 0;\n  font-family: bold \"Optima\";\n}\n", "",{"version":3,"sources":["webpack://./public/style.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,qBAAqB;EACrB,wBAAwB;AAC1B;;AAEA;EACE,kBAAkB;EAClB,kBAAkB;EAClB,0BAA0B;AAC5B","sourcesContent":[".name {\n  font-size: 50px;\n  font-family: \"Optima\";\n  color: rgb(76, 212, 190);\n}\n\nbutton {\n  border-radius: 5px;\n  margin: 0 10px 0 0;\n  font-family: bold \"Optima\";\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

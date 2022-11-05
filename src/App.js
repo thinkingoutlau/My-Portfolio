@@ -1,10 +1,15 @@
 import React from "react";
 
 const App = () => {
+  const handleClick = (e) => {
+    e.preventDefault();
+
+    console.log("hello");
+  };
   return (
     <div>
-      <h1 className="name">Winnie Lau </h1>
-      <button>Linkedin</button>
+      <h1 className="name">WINNIE LAU :)</h1>
+      <button onClick={handleClick}>Linkedin</button>
       <button>Github</button>
       <button>Resume</button>
     </div>
