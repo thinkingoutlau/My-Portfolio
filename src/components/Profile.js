@@ -8,8 +8,10 @@ const Profile = () => {
         <img className="picture" src="/Winnie_Lau.png" />
       </div>
       <div className="aboutMe">
-        Hi there! I'm Winnie :) I was a former high school mathematics teacher
-        and a college lecturer. I had recently transitioned into the tech world.
+        Hi there! I'm Winnie :) I am a software engineer and was a former
+        educator. I was a high school mathematics teacher and a college
+        lecturer. I had recently transitioned into the tech world and have been
+        loving every minute of it.
       </div>
       <br />
 

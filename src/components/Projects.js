@@ -20,6 +20,8 @@ const Projects = () => {
                   {project.link}
                 </a>
               </div>
+              <br />
+              <hr></hr>
             </div>
           );
         })}

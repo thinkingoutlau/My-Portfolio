@@ -3441,7 +3441,7 @@ var Profile = function Profile() {
     src: "/Winnie_Lau.png"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "aboutMe"
-  }, "Hi there! I'm Winnie :) I was a former high school mathematics teacher and a college lecturer. I had recently transitioned into the tech world."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  }, "Hi there! I'm Winnie :) I am a software engineer and was a former educator. I was a high school mathematics teacher and a college lecturer. I had recently transitioned into the tech world and have been loving every minute of it."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     target: "_blank",
     href: "https://www.linkedin.com/in/thinkingoutlau/"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", null, "Linkedin")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
@@ -3482,7 +3482,7 @@ var Projects = function Projects() {
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, project.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", null, project.description)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
       target: "_blank",
       href: project.link
-    }, project.link)));
+    }, project.link)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null));
   })));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Projects);
@@ -3503,27 +3503,32 @@ var projects = [{
   id: 1,
   title: "Optimate",
   description: "Dating App",
-  link: "https://optimate8.herokuapp.com/"
+  link: "https://optimate8.herokuapp.com/",
+  picture: ""
 }, {
   id: 2,
   title: "Thinkingoutlau Tutoring Center",
   description: "Math tutoring center",
-  link: "https://github.com/thinkingoutlau/My-Own-App"
+  link: "https://github.com/thinkingoutlau/My-Own-App",
+  picture: ""
 }, {
   id: 3,
   title: "Hobby Logger",
   description: "Logging all my favorite things ☺️",
-  link: "https://github.com/thinkingoutlau/hobby_logger"
+  link: "https://github.com/thinkingoutlau/hobby_logger",
+  picture: ""
 }, {
   id: 4,
   title: "Nook's Cranny",
   description: "E-commerce site for Animal Crossing",
-  link: "https://github.com/thinkingoutlau/b3t-shoppers"
+  link: "https://github.com/thinkingoutlau/b3t-shoppers",
+  picture: ""
 }, {
   id: 5,
   title: "NYC Campuses",
   description: "RESTFUL / CRUD application for a database of students and campuses",
-  link: "https://github.com/thinkingoutlau/NYC-Campuses-Students"
+  link: "https://github.com/thinkingoutlau/NYC-Campuses-Students",
+  picture: ""
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (projects);
 
@@ -3548,7 +3553,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".profile {\n  margin: 0 0 0 30px;\n  /* display: inline-block; */\n  float: left;\n}\n@media only screen and (max-width: 390px) {\n  .profile {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n  }\n}\n\n.name {\n  font-size: 50px;\n  font-family: \"Optima\";\n  color: rgb(76, 212, 190);\n}\n.picture {\n  border-radius: 50%;\n  /* border: 5px solid rgb(204, 111, 204); */\n  height: 250px;\n  width: 270px;\n  margin: 0 0 20px 0;\n}\n\n.aboutMe {\n  overflow-wrap: break-word;\n  width: 300px;\n  margin: 0.5em;\n}\n\nbutton {\n  border-radius: 5px;\n  border-color: rgb(76, 212, 190);\n  border-width: 3px;\n  margin: 0 10px 0 5px;\n  font-family: bold \"Optima\";\n}\n\n.projects {\n  /* display: inline-flex; */\n  float: left;\n  margin: 35px 0 0 125px;\n  font-family: Georgia, \"Times New Roman\", Times, serif;\n  border: 5px solid rgb(76, 212, 190);\n  padding: 0 20px 20px 20px;\n}\n@media only screen and (max-width: 390px) {\n  .projects {\n    float: left;\n    margin: 20px 0px 20px 0px;\n  }\n}\n", "",{"version":3,"sources":["webpack://./public/style.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,2BAA2B;EAC3B,WAAW;AACb;AACA;EACE;IACE,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,sBAAsB;EACxB;AACF;;AAEA;EACE,eAAe;EACf,qBAAqB;EACrB,wBAAwB;AAC1B;AACA;EACE,kBAAkB;EAClB,0CAA0C;EAC1C,aAAa;EACb,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,yBAAyB;EACzB,YAAY;EACZ,aAAa;AACf;;AAEA;EACE,kBAAkB;EAClB,+BAA+B;EAC/B,iBAAiB;EACjB,oBAAoB;EACpB,0BAA0B;AAC5B;;AAEA;EACE,0BAA0B;EAC1B,WAAW;EACX,sBAAsB;EACtB,qDAAqD;EACrD,mCAAmC;EACnC,yBAAyB;AAC3B;AACA;EACE;IACE,WAAW;IACX,yBAAyB;EAC3B;AACF","sourcesContent":[".profile {\n  margin: 0 0 0 30px;\n  /* display: inline-block; */\n  float: left;\n}\n@media only screen and (max-width: 390px) {\n  .profile {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n  }\n}\n\n.name {\n  font-size: 50px;\n  font-family: \"Optima\";\n  color: rgb(76, 212, 190);\n}\n.picture {\n  border-radius: 50%;\n  /* border: 5px solid rgb(204, 111, 204); */\n  height: 250px;\n  width: 270px;\n  margin: 0 0 20px 0;\n}\n\n.aboutMe {\n  overflow-wrap: break-word;\n  width: 300px;\n  margin: 0.5em;\n}\n\nbutton {\n  border-radius: 5px;\n  border-color: rgb(76, 212, 190);\n  border-width: 3px;\n  margin: 0 10px 0 5px;\n  font-family: bold \"Optima\";\n}\n\n.projects {\n  /* display: inline-flex; */\n  float: left;\n  margin: 35px 0 0 125px;\n  font-family: Georgia, \"Times New Roman\", Times, serif;\n  border: 5px solid rgb(76, 212, 190);\n  padding: 0 20px 20px 20px;\n}\n@media only screen and (max-width: 390px) {\n  .projects {\n    float: left;\n    margin: 20px 0px 20px 0px;\n  }\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".profile {\n  margin: 0 0 0 30px;\n  /* display: inline-block; */\n  float: left;\n}\n@media only screen and (max-width: 390px) {\n  .profile {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n  }\n}\n\n.name {\n  font-size: 50px;\n  font-family: \"Optima\";\n  color: rgb(76, 212, 190);\n}\n.picture {\n  border-radius: 50%;\n  /* border: 5px solid rgb(204, 111, 204); */\n  height: 250px;\n  width: 270px;\n  margin: 0 0 20px 0;\n}\n\n.aboutMe {\n  overflow-wrap: break-word;\n  width: 300px;\n  margin: 0.5em;\n}\n\nbutton {\n  border-radius: 5px;\n  border-color: rgb(76, 212, 190);\n  border-width: 3px;\n  margin: 0 10px 0 5px;\n  font-family: bold \"Optima\";\n}\n\n.projects {\n  /* display: inline-flex; */\n  float: left;\n  margin: 5px 0 0 60px;\n  font-family: Georgia, \"Times New Roman\", Times, serif;\n  border: 5px solid rgb(76, 212, 190);\n  padding: 0 300px 20px 20px;\n}\n@media only screen and (max-width: 390px) {\n  .projects {\n    float: left;\n    margin: 20px 0px 20px 0px;\n    padding: 0 20px 20px 20px;\n  }\n}\n\n.project {\n}\n", "",{"version":3,"sources":["webpack://./public/style.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,2BAA2B;EAC3B,WAAW;AACb;AACA;EACE;IACE,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,sBAAsB;EACxB;AACF;;AAEA;EACE,eAAe;EACf,qBAAqB;EACrB,wBAAwB;AAC1B;AACA;EACE,kBAAkB;EAClB,0CAA0C;EAC1C,aAAa;EACb,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,yBAAyB;EACzB,YAAY;EACZ,aAAa;AACf;;AAEA;EACE,kBAAkB;EAClB,+BAA+B;EAC/B,iBAAiB;EACjB,oBAAoB;EACpB,0BAA0B;AAC5B;;AAEA;EACE,0BAA0B;EAC1B,WAAW;EACX,oBAAoB;EACpB,qDAAqD;EACrD,mCAAmC;EACnC,0BAA0B;AAC5B;AACA;EACE;IACE,WAAW;IACX,yBAAyB;IACzB,yBAAyB;EAC3B;AACF;;AAEA;AACA","sourcesContent":[".profile {\n  margin: 0 0 0 30px;\n  /* display: inline-block; */\n  float: left;\n}\n@media only screen and (max-width: 390px) {\n  .profile {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n  }\n}\n\n.name {\n  font-size: 50px;\n  font-family: \"Optima\";\n  color: rgb(76, 212, 190);\n}\n.picture {\n  border-radius: 50%;\n  /* border: 5px solid rgb(204, 111, 204); */\n  height: 250px;\n  width: 270px;\n  margin: 0 0 20px 0;\n}\n\n.aboutMe {\n  overflow-wrap: break-word;\n  width: 300px;\n  margin: 0.5em;\n}\n\nbutton {\n  border-radius: 5px;\n  border-color: rgb(76, 212, 190);\n  border-width: 3px;\n  margin: 0 10px 0 5px;\n  font-family: bold \"Optima\";\n}\n\n.projects {\n  /* display: inline-flex; */\n  float: left;\n  margin: 5px 0 0 60px;\n  font-family: Georgia, \"Times New Roman\", Times, serif;\n  border: 5px solid rgb(76, 212, 190);\n  padding: 0 300px 20px 20px;\n}\n@media only screen and (max-width: 390px) {\n  .projects {\n    float: left;\n    margin: 20px 0px 20px 0px;\n    padding: 0 20px 20px 20px;\n  }\n}\n\n.project {\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
