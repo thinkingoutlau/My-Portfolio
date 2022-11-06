@@ -3414,7 +3414,10 @@ var App = function App() {
   // };
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
     className: "name"
-  }, "WINNIE LAU :)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  }, "WINNIE LAU"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: "picture",
+    src: "/Winnie_Lau.png"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     target: "_blank",
     href: "https://www.linkedin.com/in/thinkingoutlau/"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", null, "Linkedin")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
@@ -3448,7 +3451,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".name {\n  font-size: 50px;\n  font-family: \"Optima\";\n  color: rgb(76, 212, 190);\n}\n\nbutton {\n  border-radius: 5px;\n  margin: 0 10px 0 0;\n  font-family: bold \"Optima\";\n}\n", "",{"version":3,"sources":["webpack://./public/style.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,qBAAqB;EACrB,wBAAwB;AAC1B;;AAEA;EACE,kBAAkB;EAClB,kBAAkB;EAClB,0BAA0B;AAC5B","sourcesContent":[".name {\n  font-size: 50px;\n  font-family: \"Optima\";\n  color: rgb(76, 212, 190);\n}\n\nbutton {\n  border-radius: 5px;\n  margin: 0 10px 0 0;\n  font-family: bold \"Optima\";\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".name {\n  font-size: 50px;\n  font-family: \"Optima\";\n  color: rgb(76, 212, 190);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.picture {\n  border-radius: 50%;\n  height: 250px;\n  width: 260px;\n  margin: 0 0 20px 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n\nbutton {\n  border-radius: 5px;\n  margin: 0 10px 0 0;\n  font-family: bold \"Optima\";\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: row;\n}\n", "",{"version":3,"sources":["webpack://./public/style.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,qBAAqB;EACrB,wBAAwB;EACxB,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,sBAAsB;AACxB;AACA;EACE,kBAAkB;EAClB,aAAa;EACb,YAAY;EACZ,kBAAkB;EAClB,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,sBAAsB;AACxB;;AAEA;EACE,kBAAkB;EAClB,kBAAkB;EAClB,0BAA0B;EAC1B,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,mBAAmB;AACrB","sourcesContent":[".name {\n  font-size: 50px;\n  font-family: \"Optima\";\n  color: rgb(76, 212, 190);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.picture {\n  border-radius: 50%;\n  height: 250px;\n  width: 260px;\n  margin: 0 0 20px 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n\nbutton {\n  border-radius: 5px;\n  margin: 0 10px 0 0;\n  font-family: bold \"Optima\";\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: row;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

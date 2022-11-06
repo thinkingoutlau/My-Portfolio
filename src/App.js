@@ -9,7 +9,11 @@ const App = () => {
   // };
   return (
     <div>
-      <h1 className="name">WINNIE LAU :)</h1>
+      <h1 className="name">WINNIE LAU</h1>
+      <div>
+        <img className="picture" src="/Winnie_Lau.png" />
+      </div>
+
       <a target="_blank" href="https://www.linkedin.com/in/thinkingoutlau/">
         <button>Linkedin</button>
       </a>
