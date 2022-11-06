@@ -7,6 +7,11 @@ const Profile = () => {
       <div>
         <img className="picture" src="/Winnie_Lau.png" />
       </div>
+      <div className="aboutMe">
+        Hi there! I'm Winnie :) I was a former high school mathematics teacher
+        and a college lecturer. I had recently transitioned into the tech world.
+      </div>
+      <br />
 
       <a target="_blank" href="https://www.linkedin.com/in/thinkingoutlau/">
         <button>Linkedin</button>
