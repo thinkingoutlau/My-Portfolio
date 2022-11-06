@@ -3404,15 +3404,37 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Profile__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Profile */ "./src/components/Profile.js");
+/* harmony import */ var _components_Projects__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Projects */ "./src/components/Projects.js");
+
+
 
 var App = function App() {
-  // const handleClick = (e) => {
-  //   e.preventDefault();
-  //   <a target="_blank" href="https://www.linkedin.com/in/thinkingoutlau/"></a>;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "app"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Profile__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Projects__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
 
-  //   console.log("hello");
-  // };
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
+/***/ }),
+
+/***/ "./src/components/Profile.js":
+/*!***********************************!*\
+  !*** ./src/components/Profile.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+var Profile = function Profile() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "profile"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
     className: "name"
   }, "WINNIE LAU"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: "picture",
@@ -3428,7 +3450,27 @@ var App = function App() {
     href: "WinnieLau_Resume.pdf"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", null, "Resume")));
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Profile);
+
+/***/ }),
+
+/***/ "./src/components/Projects.js":
+/*!************************************!*\
+  !*** ./src/components/Projects.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+var Projects = function Projects() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "Hello");
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Projects);
 
 /***/ }),
 
@@ -3451,7 +3493,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".name {\n  font-size: 50px;\n  font-family: \"Optima\";\n  color: rgb(76, 212, 190);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.picture {\n  border-radius: 50%;\n  height: 250px;\n  width: 260px;\n  margin: 0 0 20px 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n\nbutton {\n  border-radius: 5px;\n  margin: 0 10px 0 0;\n  font-family: bold \"Optima\";\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: row;\n}\n", "",{"version":3,"sources":["webpack://./public/style.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,qBAAqB;EACrB,wBAAwB;EACxB,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,sBAAsB;AACxB;AACA;EACE,kBAAkB;EAClB,aAAa;EACb,YAAY;EACZ,kBAAkB;EAClB,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,sBAAsB;AACxB;;AAEA;EACE,kBAAkB;EAClB,kBAAkB;EAClB,0BAA0B;EAC1B,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,mBAAmB;AACrB","sourcesContent":[".name {\n  font-size: 50px;\n  font-family: \"Optima\";\n  color: rgb(76, 212, 190);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.picture {\n  border-radius: 50%;\n  height: 250px;\n  width: 260px;\n  margin: 0 0 20px 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n\nbutton {\n  border-radius: 5px;\n  margin: 0 10px 0 0;\n  font-family: bold \"Optima\";\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: row;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".profile {\n  margin: 0 0 0 30px;\n}\n@media only screen and (max-width: 390px) {\n  .profile {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n  }\n}\n\n.name {\n  font-size: 50px;\n  font-family: \"Optima\";\n  color: rgb(76, 212, 190);\n}\n.picture {\n  border-radius: 50%;\n  border: 5px solid rgb(204, 111, 204);\n  height: 250px;\n  width: 260px;\n  margin: 0 0 20px 0;\n}\n\nbutton {\n  border-radius: 5px;\n  border-color: rgb(76, 212, 190);\n  border-width: 3px;\n  margin: 0 10px 0 5px;\n  font-family: bold \"Optima\";\n}\n", "",{"version":3,"sources":["webpack://./public/style.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;AACpB;AACA;EACE;IACE,aAAa;IACb,uBAAuB;IACvB,mBAAmB;IACnB,sBAAsB;EACxB;AACF;;AAEA;EACE,eAAe;EACf,qBAAqB;EACrB,wBAAwB;AAC1B;AACA;EACE,kBAAkB;EAClB,oCAAoC;EACpC,aAAa;EACb,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,kBAAkB;EAClB,+BAA+B;EAC/B,iBAAiB;EACjB,oBAAoB;EACpB,0BAA0B;AAC5B","sourcesContent":[".profile {\n  margin: 0 0 0 30px;\n}\n@media only screen and (max-width: 390px) {\n  .profile {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    flex-direction: column;\n  }\n}\n\n.name {\n  font-size: 50px;\n  font-family: \"Optima\";\n  color: rgb(76, 212, 190);\n}\n.picture {\n  border-radius: 50%;\n  border: 5px solid rgb(204, 111, 204);\n  height: 250px;\n  width: 260px;\n  margin: 0 0 20px 0;\n}\n\nbutton {\n  border-radius: 5px;\n  border-color: rgb(76, 212, 190);\n  border-width: 3px;\n  margin: 0 10px 0 5px;\n  font-family: bold \"Optima\";\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -39821,16 +39863,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
+/* harmony import */ var _public_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../public/style.css */ "./public/style.css");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js");
-/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App */ "./src/App.js");
-/* harmony import */ var _public_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../public/style.css */ "./public/style.css");
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */ "./src/App.js");
 
 
 
 
 
 var root = react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot(document.getElementById("root"));
-root.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_App__WEBPACK_IMPORTED_MODULE_2__["default"], null)));
+root.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_App__WEBPACK_IMPORTED_MODULE_3__["default"], null)));
 })();
 
 /******/ })()
