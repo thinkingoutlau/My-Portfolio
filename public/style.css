@@ -1,5 +1,7 @@
 .profile {
   margin: 0 0 0 30px;
+  /* display: inline-block; */
+  float: left;
 }
 @media only screen and (max-width: 390px) {
   .profile {
@@ -17,7 +19,7 @@
 }
 .picture {
   border-radius: 50%;
-  border: 5px solid rgb(204, 111, 204);
+  /* border: 5px solid rgb(204, 111, 204); */
   height: 250px;
   width: 260px;
   margin: 0 0 20px 0;
@@ -29,4 +31,19 @@ button {
   border-width: 3px;
   margin: 0 10px 0 5px;
   font-family: bold "Optima";
+}
+
+.projects {
+  /* display: inline-flex; */
+  float: left;
+  margin: 35px 0 0 125px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: 5px solid rgb(76, 212, 190);
+  padding: 0 20px 20px 20px;
+}
+@media only screen and (max-width: 390px) {
+  .projects {
+    float: left;
+    margin: 0;
+  }
 }
