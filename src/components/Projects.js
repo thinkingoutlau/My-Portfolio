@@ -20,6 +20,18 @@ const Projects = () => {
                   {project.link}
                 </a>
               </div>
+              <div>
+                {project.title === "Nook's Cranny" ? (
+                  <video
+                    src="/AnimalCrossing.mp4"
+                    controls
+                    width="700"
+                    height="400"
+                  ></video>
+                ) : (
+                  ""
+                )}
+              </div>
               <br />
               <hr></hr>
             </div>
