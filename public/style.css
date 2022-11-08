@@ -27,8 +27,9 @@
 
 .aboutMe {
   overflow-wrap: break-word;
-  width: 300px;
-  margin: 0.5em;
+  width: 290px;
+  margin: 0.3em;
+  font-family: "Arial";
 }
 
 button {
