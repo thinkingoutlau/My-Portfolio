@@ -25,9 +25,13 @@ const Projects = () => {
                   <video
                     src="/AnimalCrossing.mp4"
                     controls
-                    width="700"
-                    height="400"
+                    className="video"
                   ></video>
+                ) : (
+                  ""
+                )}
+                {project.title === "Optimate" ? (
+                  <video src="/Optimate.mp4" controls className="video"></video>
                 ) : (
                   ""
                 )}

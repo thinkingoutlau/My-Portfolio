@@ -17,6 +17,21 @@
   font-family: "Optima";
   color: rgb(76, 212, 190);
 }
+
+.username {
+  display: flex;
+  justify-content: center;
+  margin: -40px 0 20px 0;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 390px) {
+  .username {
+    text-align: center;
+    margin: -40px 0 20px 0;
+  }
+}
+
 .picture {
   border-radius: 50%;
   /* border: 5px solid rgb(204, 111, 204); */
@@ -46,15 +61,29 @@ button {
   margin: 5px 0 0 60px;
   font-family: Georgia, "Times New Roman", Times, serif;
   border: 5px solid rgb(76, 212, 190);
-  padding: 0 300px 20px 20px;
+  padding: 0 100px 20px 20px;
+  max-height: 660px;
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
 }
 @media only screen and (max-width: 390px) {
   .projects {
     float: left;
+    width: auto;
     margin: 20px 0px 20px 0px;
     padding: 0 20px 20px 20px;
   }
 }
 
-.project {
+.video {
+  width: 700px;
+  height: 400px;
+}
+
+@media only screen and (max-width: 390px) {
+  .video {
+    padding-top: 10px;
+    width: 350px;
+    height: 225px;
+  }
 }

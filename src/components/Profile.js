@@ -1,9 +1,9 @@
 import React from "react";
-
 const Profile = () => {
   return (
     <div className="profile">
       <h1 className="name">WINNIE LAU</h1>
+      <i className="username">thinkingoutlau</i>
       <div>
         <img className="picture" src="/Winnie_Lau.png" />
       </div>
