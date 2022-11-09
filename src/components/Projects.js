@@ -30,11 +30,11 @@ const Projects = () => {
                 ) : (
                   ""
                 )}
-                {project.title === "Optimate" ? (
+                {/* {project.title === "Optimate" ? (
                   <video src="/Optimate.mp4" controls className="video"></video>
                 ) : (
                   ""
-                )}
+                )} */}
               </div>
               <br />
               <hr></hr>

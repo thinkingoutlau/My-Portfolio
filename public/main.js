@@ -3488,10 +3488,6 @@ var Projects = function Projects() {
       src: "/AnimalCrossing.mp4",
       controls: true,
       className: "video"
-    }) : "", project.title === "Optimate" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("video", {
-      src: "/Optimate.mp4",
-      controls: true,
-      className: "video"
     }) : ""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null));
   })));
 };
