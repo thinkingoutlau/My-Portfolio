@@ -75,6 +75,11 @@ button {
   }
 }
 
+.description {
+  overflow-wrap: break-word;
+  width: 700px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .video {
   width: 700px;
   height: 400px;

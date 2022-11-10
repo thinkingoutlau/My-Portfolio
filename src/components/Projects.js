@@ -12,12 +12,17 @@ const Projects = () => {
           return (
             <div key={project.id}>
               <h3>{project.title}</h3>
-              <div>
-                <i>{project.description}</i>
+              <div className="description">
+                <p>{project.description}</p>
               </div>
               <div>
                 <a target="_blank" href={project.link}>
                   {project.link}
+                </a>
+              </div>
+              <div>
+                <a target="_blank" href={project.github}>
+                  {project.github}
                 </a>
               </div>
               <div>
