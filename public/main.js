@@ -3489,12 +3489,16 @@ var Projects = function Projects() {
     }, project.link)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
       target: "_blank",
       href: project.github
-    }, project.github)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, project.title === "Nook's Cranny" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("video", {
-      src: "/AnimalCrossing.mp4",
+    }, project.github)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, project.title === "Optimate" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("video", {
+      src: "/Optimate1Minute.mp4",
       controls: true,
       className: "video"
-    }) : "", project.title === "Optimate" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("video", {
-      src: "/Optimate1Minute.mp4",
+    }) : "", project.title === "Thinkingoutlau Tutoring Center" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("video", {
+      src: "/ThinkingoutlauTutoringCenter.mp4",
+      controls: true,
+      className: "video"
+    }) : "", project.title === "Nook's Cranny" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("video", {
+      src: "/AnimalCrossing.mp4",
       controls: true,
       className: "video"
     }) : ""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null));

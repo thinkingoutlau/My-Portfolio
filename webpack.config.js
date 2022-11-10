@@ -10,7 +10,7 @@ module.exports = {
   context: __dirname,
   devtool: "source-map",
   devServer: {
-    port: "3000",
+    port: "8080",
     static: ["./public"],
     open: true,
     hot: true,

@@ -26,18 +26,27 @@ const Projects = () => {
                 </a>
               </div>
               <div>
-                {project.title === "Nook's Cranny" ? (
+                {project.title === "Optimate" ? (
                   <video
-                    src="/AnimalCrossing.mp4"
+                    src="/Optimate1Minute.mp4"
                     controls
                     className="video"
                   ></video>
                 ) : (
                   ""
                 )}
-                {project.title === "Optimate" ? (
+                {project.title === "Thinkingoutlau Tutoring Center" ? (
                   <video
-                    src="/Optimate1Minute.mp4"
+                    src="/ThinkingoutlauTutoringCenter.mp4"
+                    controls
+                    className="video"
+                  ></video>
+                ) : (
+                  ""
+                )}
+                {project.title === "Nook's Cranny" ? (
+                  <video
+                    src="/AnimalCrossing.mp4"
                     controls
                     className="video"
                   ></video>
