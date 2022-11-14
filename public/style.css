@@ -1,95 +1,3 @@
-/* .profile {
-  margin: 0 0 0 30px;
-  float: left;
-}
-@media only screen and (max-width: 390px) {
-  .profile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-}
-
-.name {
-  font-size: 50px;
-  font-family: "Optima";
-  color: rgb(76, 212, 190);
-}
-
-.username {
-  display: flex;
-  justify-content: center;
-  margin: -40px 0 20px 0;
-  font-size: 20px;
-}
-
-@media only screen and (max-width: 390px) {
-  .username {
-    text-align: center;
-    margin: -40px 0 20px 0;
-  }
-}
-
-.picture {
-  border-radius: 50%;
-  height: 250px;
-  width: 270px;
-  margin: 0 0 20px 0;
-}
-
-.aboutMe {
-  overflow-wrap: break-word;
-  width: 290px;
-  margin: 0.3em;
-  font-family: "Arial";
-}
-
-button {
-  border-radius: 5px;
-  border-color: rgb(76, 212, 190);
-  border-width: 3px;
-  margin: 0 10px 0 5px;
-  font-family: bold "Optima";
-}
-
-.projects {
-  float: left;
-  margin: 5px 0 0 60px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  border: 5px solid rgb(76, 212, 190);
-  padding: 0 100px 20px 20px;
-  max-height: 660px;
-  overflow: -moz-scrollbars-vertical;
-  overflow-y: scroll;
-}
-@media only screen and (max-width: 390px) {
-  .projects {
-    float: left;
-    width: auto;
-    margin: 20px 0px 20px 0px;
-    padding: 0 20px 20px 20px;
-  }
-}
-
-.description {
-  overflow-wrap: break-word;
-  width: 700px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.video {
-  width: 700px;
-  height: 400px;
-}
-
-@media only screen and (max-width: 390px) {
-  .video {
-    padding-top: 10px;
-    width: 350px;
-    height: 225px;
-  }
-} */
-
 * {
   padding: 0;
   margin: 0 2px;
@@ -99,14 +7,13 @@ button {
 /* TARGETS THE ENTIRE APP */
 .app {
   /* max-width: 1060px; */
-  border: solid 5px rgb(9, 163, 138);
   display: grid;
-  grid-template-columns: 1fr 0.3fr;
+  grid-template-columns: 1fr 0.5fr;
 }
 
 /* TARGETS THE ENTIRE PROFILE */
 .profile {
-  margin: 10px 20px;
+  margin: 15px 20px;
   padding: 10px;
   font-family: "Optima";
   font-size: 30px;
@@ -116,15 +23,15 @@ button {
 }
 
 .picture {
-  height: 350px;
-  width: 420px;
+  width: 100%;
+  height: auto;
   padding: 20px 0;
 }
 
 .aboutMe {
   font-family: Arial, Helvetica, sans-serif;
   overflow-wrap: break-word;
-  width: 400px;
+  /* width: 20rem; */
   font-size: 18px;
 }
 
@@ -135,6 +42,9 @@ button {
   overflow-x: auto;
   height: 900px;
   font-size: 20px;
+  /* background-color: rgb(122, 219, 203); */
+  border: solid 5px rgb(9, 163, 138);
+  margin: 15px 0;
 }
 
 h2 {
@@ -143,8 +53,8 @@ h2 {
 }
 
 .video {
-  width: 800px;
-  height: 500px;
+  width: 80%;
+  height: auto;
 }
 
 button {
@@ -154,3 +64,19 @@ button {
   font-family: bold "Optima";
   margin: 0 5px;
 }
+
+@media screen and (max-width: 500px) {
+  .app {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .projects {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .projects {
+    height: 1100px;
+  }
+} ;

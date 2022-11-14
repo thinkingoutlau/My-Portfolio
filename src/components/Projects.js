@@ -26,6 +26,7 @@ const Projects = () => {
                   {project.github}
                 </a>
               </div>
+              <br />
               <div>
                 {project.title === "Optimate" ? (
                   <video
