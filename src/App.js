@@ -5,8 +5,8 @@ import Projects from "./components/Projects";
 const App = () => {
   return (
     <div className="app">
-      <Profile />
       <Projects />
+      <Profile />
     </div>
   );
 };

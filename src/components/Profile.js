@@ -3,6 +3,7 @@ const Profile = () => {
   return (
     <div className="profile">
       <h1 className="name">WINNIE LAU</h1>
+      <h3>Software Engineer</h3>
       <i className="username">thinkingoutlau</i>
       <div>
         <img className="picture" src="/Winnie_Lau.png" />

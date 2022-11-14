@@ -1,6 +1,5 @@
-.profile {
+/* .profile {
   margin: 0 0 0 30px;
-  /* display: inline-block; */
   float: left;
 }
 @media only screen and (max-width: 390px) {
@@ -34,7 +33,6 @@
 
 .picture {
   border-radius: 50%;
-  /* border: 5px solid rgb(204, 111, 204); */
   height: 250px;
   width: 270px;
   margin: 0 0 20px 0;
@@ -56,7 +54,6 @@ button {
 }
 
 .projects {
-  /* display: inline-flex; */
   float: left;
   margin: 5px 0 0 60px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -91,4 +88,69 @@ button {
     width: 350px;
     height: 225px;
   }
+} */
+
+* {
+  padding: 0;
+  margin: 0 2px;
+  color: rgb(0, 0, 0);
+}
+
+/* TARGETS THE ENTIRE APP */
+.app {
+  /* max-width: 1060px; */
+  border: solid 5px rgb(9, 163, 138);
+  display: grid;
+  grid-template-columns: 1fr 0.3fr;
+}
+
+/* TARGETS THE ENTIRE PROFILE */
+.profile {
+  margin: 10px 20px;
+  padding: 10px;
+  font-family: "Optima";
+  font-size: 30px;
+  background-color: rgb(122, 219, 203);
+  border: solid 5px rgb(9, 163, 138);
+  text-align: center;
+}
+
+.picture {
+  height: 350px;
+  width: 420px;
+  padding: 20px 0;
+}
+
+.aboutMe {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-wrap: break-word;
+  width: 400px;
+  font-size: 18px;
+}
+
+/* TARGETS THE ENTIRE SECTION OF PROJECTS (CONTAINER FOR PROJECTS) */
+.projects {
+  text-align: center;
+  overflow-y: scroll;
+  overflow-x: auto;
+  height: 900px;
+  font-size: 20px;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+.video {
+  width: 800px;
+  height: 500px;
+}
+
+button {
+  border-radius: 5px;
+  border: solid 3px rgb(9, 163, 138);
+  padding: 3px;
+  font-family: bold "Optima";
+  margin: 0 5px;
 }
